@@ -1,0 +1,2 @@
+rootProject.name='SampleBottomSheetDialog'
+include ':app'

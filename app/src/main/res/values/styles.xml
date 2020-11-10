@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="bottom_sheet_dialog_style" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/bottom_sheet_style</item>
+
+    </style>
+
+    <style name="bottom_sheet_style" parent="Widget.Design.BottomSheet.Modal">
+        <!--        <item name="android:background">@drawable/bg_top_corner</item>-->
+        <!--        <item name="behavior_peekHeight">auto</item>-->
+        <!--        <item name="android:elevation" ns1:ignore="NewApi">0dp</item>-->
+
+        <!--        可以实现顶在头部！-->
+        <item name="behavior_peekHeight">1000dp</item>
+        <!--        <item name="behavior_hideable">false</item>-->
+        <!--不会用中间的停顿-->
+        <item name="behavior_skipCollapsed">true</item>
+    </style>
+</resources>
