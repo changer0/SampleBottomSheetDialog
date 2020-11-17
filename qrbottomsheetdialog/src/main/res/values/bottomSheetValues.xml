@@ -3,7 +3,7 @@
     <dimen name="design_bottom_sheet_modal_elevation">16dp</dimen>
     <dimen name="design_bottom_sheet_peek_height_min">64dp</dimen>
     <integer name="bottom_sheet_slide_duration">150</integer>
-    <string name="bottom_sheet_behavior" translatable="false"> com.example.samplebottomsheetdialog.core.BottomSheetBehavior</string>
+    <string name="bottom_sheet_behavior" translatable="false"> com.qq.reader.view.bottomsheetdialog.BottomSheetBehavior</string>
     <attr name="bottomSheetStyle" format="reference" />
     <attr format="reference" name="bottomSheetDialogTheme"/>
     <!--declare-styleable-->

@@ -3,20 +3,21 @@
 // (powered by Fernflower decompiler)
 //
 
-package com.example.samplebottomsheetdialog.core;
+package com.qq.reader.view.bottomsheetdialog;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.os.Bundle;
 import android.os.Build.VERSION;
+import android.os.Bundle;
 import android.util.TypedValue;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.ViewGroup;
-import android.view.Window;
 import android.view.View.OnTouchListener;
+import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
+import android.view.Window;
 import android.widget.FrameLayout;
+
 import androidx.annotation.LayoutRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.StyleRes;
@@ -25,8 +26,6 @@ import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.core.view.AccessibilityDelegateCompat;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
-
-import com.example.samplebottomsheetdialog.R;
 
 public class BottomSheetDialog extends AppCompatDialog {
     private BottomSheetBehavior<FrameLayout> behavior;

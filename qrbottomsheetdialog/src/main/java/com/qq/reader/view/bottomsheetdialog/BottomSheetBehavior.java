@@ -1,4 +1,4 @@
-package com.example.samplebottomsheetdialog.core;
+package com.qq.reader.view.bottomsheetdialog;
 
 //
 // Source code recreated from a .class file by IntelliJ IDEA
@@ -8,9 +8,9 @@ package com.example.samplebottomsheetdialog.core;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.res.TypedArray;
+import android.os.Build.VERSION;
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.os.Build.VERSION;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.MotionEvent;
@@ -18,12 +18,13 @@ import android.view.VelocityTracker;
 import android.view.View;
 import android.view.ViewConfiguration;
 import android.view.ViewGroup;
-import android.view.ViewParent;
 import android.view.ViewGroup.LayoutParams;
+import android.view.ViewParent;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.RestrictTo;
-import androidx.annotation.VisibleForTesting;
 import androidx.annotation.RestrictTo.Scope;
+import androidx.annotation.VisibleForTesting;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.coordinatorlayout.widget.CoordinatorLayout.Behavior;
 import androidx.core.math.MathUtils;
@@ -31,8 +32,6 @@ import androidx.core.view.ViewCompat;
 import androidx.customview.view.AbsSavedState;
 import androidx.customview.widget.ViewDragHelper;
 import androidx.customview.widget.ViewDragHelper.Callback;
-
-import com.example.samplebottomsheetdialog.R;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -823,7 +822,7 @@ public class BottomSheetBehavior<V extends View> extends Behavior<V> {
 
     protected static class SavedState extends AbsSavedState {
         final int state;
-        public static final Creator<BottomSheetBehavior.SavedState> CREATOR = new ClassLoaderCreator<BottomSheetBehavior.SavedState>() {
+        public static final Creator<SavedState> CREATOR = new ClassLoaderCreator<SavedState>() {
             public BottomSheetBehavior.SavedState createFromParcel(Parcel in, ClassLoader loader) {
                 return new BottomSheetBehavior.SavedState(in, loader);
             }
