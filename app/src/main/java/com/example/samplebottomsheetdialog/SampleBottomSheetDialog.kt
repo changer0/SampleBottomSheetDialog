@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.plug_in_font_style_read_page.*
 
-public class BottomSheetDialog : BaseReaderPageBottomSheetDialog() {
+public class SampleBottomSheetDialog : BaseReaderPageBottomSheetDialog() {
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,

@@ -7,7 +7,7 @@ import android.os.Bundle
 import android.view.Gravity
 import android.view.View
 import android.widget.FrameLayout
-import com.google.android.material.bottomsheet.BottomSheetDialog
+import com.example.samplebottomsheetdialog.core.BottomSheetDialog
 
 /**
  * @author zhanglulu on 2020/10/29.

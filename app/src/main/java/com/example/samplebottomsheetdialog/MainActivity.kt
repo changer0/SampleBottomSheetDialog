@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         button_click.setOnClickListener {
-            val bottomSheetDialog = BottomSheetDialog()
+            val bottomSheetDialog = SampleBottomSheetDialog()
             bottomSheetDialog.show(supportFragmentManager)
         }
     }
